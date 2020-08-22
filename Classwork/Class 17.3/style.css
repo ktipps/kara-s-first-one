@@ -1,0 +1,63 @@
+.main-nav{
+    height: 60px;
+    background-color: #f1f1f1;
+}
+.main-nav ul{
+    border: thin solid #333;
+    padding:0;
+}
+.main-nav li{
+    background-color: #777777;
+    display:inline-block;
+    padding: 20px 30px;
+    margin-left: 0;
+    color: white;
+
+}
+
+.left-side{
+    width: 29%;
+    float: left; 
+
+}
+
+.main-content{
+    float: right;
+    width: 70%
+}
+
+.profile-image{
+    float:left;
+    margin-right: 25px;
+}
+
+.action-container{
+
+}
+
+.why-heading{
+    clear:both;
+    padding: 40px 0px;
+    margin: auto;
+}
+
+.puppy-picture{
+    display: inline-block;
+    width: 33%;
+}
+
+.puppy-picture img{
+    width: 100%;
+    margin-right: 10px;
+}
+
+/*left stats section */
+
+.left-side{
+    border: thin solid #333;
+    padding: .25%;
+}
+
+.pet-name img{
+    width: 50%
+}
