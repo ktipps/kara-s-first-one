@@ -1,0 +1,88 @@
+/*  Hi! your going to write styles here in the next couple activities. */
+.body{
+    font-family:'Open Sans', sans-serif;
+}
+.header {
+    height:250px;
+    max-height:500px;
+    background-image: url(/images/upsBackground.png);
+    background-size:cover; 
+    background-repeat:no-repeat; 
+    background-position:bottom;
+}
+#pageTopic{
+    text-align:center;
+}
+
+/* Primary Color */
+
+.colorContainer{
+    display: inline-block;
+    margin:15px;
+}
+
+.swatch{
+    height:200px;
+    width:170px; 
+    border:1px solid black; 
+}
+
+.hexCode{
+    padding:15px; 
+    text-align:center;
+    border: 1px solid black; 
+    border-top:none;
+    border-bottom-left-radius: 7 px; 
+    border-bottom-right-radius: 7 px; 
+}
+
+/* Typography Color */
+.type container{
+    display: inline-block; 
+    margin: 20px;
+
+/* Central Colors for the Background */
+
+}
+.darkBlue{
+    background-color:#333366; 
+}
+.darkGrey{
+    background-color: #545454;
+}
+.lightGrey {
+    background-color:#E3E3E3;
+}
+
+.white {
+    background-color: #FFFFFF;
+
+}
+.red{
+    background-color: #F84848;
+}
+
+.orange{
+    background-color:#FC7705;
+
+}
+
+.lightBlue{
+    background-color: #13A0F6;
+}
+
+.lightGreen{
+    background-color:#8ABE48;
+}
+
+/* UI Elements */
+.button{
+    display: inline-block;
+    padding: 15 px;
+    margin: 15 px;
+    width: 150 px;
+    text align: center;
+    color: white;
+}
+
+
