@@ -102,11 +102,16 @@ button{
 /* Footer Styles */
 
 .footer{
+    justify-content:center;
+    align-content:center;
+}
+.footer a{
     display: flex;
     background:black;
-    height: 80px;
     justify-content: center;
-    align-items: center;
+    align-content:center; 
+    padding: 30;
+    text-decoration:none;
   
 }
 .fb{
