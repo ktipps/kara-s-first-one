@@ -3,8 +3,113 @@ body {
 }
 
 /* Grid CSS */
+#heroGrid {
+  margin: 0px 5%;
+  display: grid;
+  min-height: 500px;
+  height: 70vh;
+  grid-template-rows: 75% 25%;
+  grid-template-columns: 75% 25%;
+  grid-template-areas:
+  "featuredProduct secondaryProduct"
+  "featuredProduct CTA";
+}
+#featuredProduct {
+  grid-area: featuredProduct;
+  background-image: url("../images/furniture1.png");
+}
+#secondaryProduct {
+  grid-area: secondaryProduct;
+  background-image: url("../images/furniture2.png");
+}
+#CTA {
+  grid-area: CTA;
+  background-image: url("../images/woodbg.png");
+  justify-content: space-around;
+  cursor: pointer;
+}
+#headline {
+  background-color: rgba(255,255,255,0.8);
+  border-bottom: 5px solid #FF6200;
+  position: absolute;
+  right: -50px;
+  top: 100px;
+  padding: 25px;
+  max-width: 550px;
+  z-index: 100;
+}
+.heroGridArea {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
 
 
+.subHeading {
+  text-align: center;
+  border-bottom: 2px solid black;
+  width: 300px;
+  margin: 50px auto;
+}
+/* Second Grid */
+
+#categoryGrid {
+  margin:0px 5%;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+  "bookcases bedroom couches"
+  "couches couches patio"
+  "desks desks desks";
+}
+
+#bookcases{
+  grid-area: bookcases;
+  background image: url("../images/bookcases.png");
+}
+
+#bedroom{
+  grid-area: bedroom;
+  background image: url("../images/beds.png");
+}
+
+#couches{
+  grid-area: couches;
+  background image: url("../images/couch.png");
+}
+
+#patio{
+  grid-area: patio;
+  background image: url("../images/patio.png");
+}
+
+#desks{
+  grid-area:desks;
+  background image: url("../images/desks.png");
+}
+
+.categoryGridArea{
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 5px;
+  cursor: pointer;
+  display: grid;
+  align-content: end;
+}
+
+.heading{
+  background-color: rgba(0,0,0,0.7);
+  padding: 15px;
+  height: 25px;
+  color: white;
+  font-size: 18px;
+  border-bottom: 5px solid #FF6200;
+}
 /* Category Grid CSS */
 
 
