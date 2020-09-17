@@ -1,0 +1,36 @@
+.jumbotron{
+    background-image: url(../Images/mountain-blue-banner.png);
+    height: 800px;
+}
+
+#experience{
+   text-align: center; 
+   color:#FFA300;
+   font-size: 25px; 
+   padding-top: 25px; 
+}
+
+#adventure{
+    text-align: center; 
+    color: #333333;
+}
+
+.btn-primary{
+    font-family: sans-serif;
+    color: #1788C1;
+
+
+}
+
+.sf-background-banner{
+    background-image: url(../Images/SF-banner-background-web.png);
+    height: 400px;
+}
+
+.sf-banner{
+    margin-top: 30px; 
+}
+
+.container{
+    
+}
